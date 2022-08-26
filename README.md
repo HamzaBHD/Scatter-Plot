@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+### User Story #1: 
+I can see a title element that has a corresponding id="title".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### User Story #2: 
+I can see an x-axis that has a corresponding id="x-axis".
 
-## Available Scripts
+### User Story #3: 
+I can see a y-axis that has a corresponding id="y-axis".
 
-In the project directory, you can run:
+### User Story #4: 
+I can see dots, that each have a class of dot, which represent the data being plotted.
 
-### `npm start`
+### User Story #5: 
+Each dot should have the properties data-xvalue and data-yvalue containing their corresponding x and y values.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### User Story #6: 
+The data-xvalue and data-yvalue of each dot should be within the range of the actual data and in the correct data format. For data-xvalue, integers (full years) or Date objects are acceptable for test evaluation. For data-yvalue (minutes), use Date objects.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Story #7: 
+The data-xvalue and its corresponding dot should align with the corresponding point/value on the x-axis.
 
-### `npm test`
+### User Story #8: 
+The data-yvalue and its corresponding dot should align with the corresponding point/value on the y-axis.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### User Story #9: 
+I can see multiple tick labels on the y-axis with %M:%S time format.
 
-### `npm run build`
+### User Story #10:
+ I can see multiple tick labels on the x-axis that show the year.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### User Story #11:
+ I can see that the range of the x-axis labels are within the range of the actual x-axis data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### User Story #12:
+ I can see that the range of the y-axis labels are within the range of the actual y-axis data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### User Story #13:
+ I can see a legend containing descriptive text that has id="legend".
 
-### `npm run eject`
+### User Story #14:
+ I can mouse over an area and see a tooltip with a corresponding id="tooltip" which displays more information about the area.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### User Story #15:
+ My tooltip should have a data-year property that corresponds to the data-xvalue of the active area.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
