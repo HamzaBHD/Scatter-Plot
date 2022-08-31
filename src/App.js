@@ -13,21 +13,22 @@ function App() {
 
   const width = 800
   const height = 600 
-  const padding = 40 
+  const padding = 50 
 
 
   return (
     <div className="main--container">
       <h1 id='title'>Doping in Professional Bicycle Racing</h1>
-      <h3 className='sub--title'>35 Fastest times up Alpe d'Huez</h3>
-      <div id='visHolder'>
-      <Scatter
-        data={data}
-        width={width}
-        height={height}
-        padding={padding}
-        />
-        </div>
+      <h3 id='description'>35 Fastest times up Alpe d'Huez</h3>
+      <div id='tooltip'>
+      
+      </div>
+        <Scatter
+          data={data}
+          width={width}
+          height={height}
+          padding={padding}
+          />
       <div id='legend'>
         <span className='para'><div className='div1 orange'></div>No doping allegations</span>
         <span className='para'><div className='div1 blue'></div>Riders with doping allegations</span>

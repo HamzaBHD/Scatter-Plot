@@ -9,9 +9,7 @@ const Scatter = ({data, width, height, padding}) => {
     },[data])
 
     const scatterPlot = () => {
-        const tooltip = d3.select('#visHolder')
-                            .append('div')
-                            .attr('id', 'tooltip')
+        const tooltip = d3.select('#tooltip')
                             .style('visibility', 'hidden')
         
         const timeFormat = d3.timeFormat('%M:%S')
@@ -54,6 +52,7 @@ const Scatter = ({data, width, height, padding}) => {
                             <br /> ${item.Doping} `)
                     .style('left', (e.pageX + 10) + 'px')
                     .style('top', (e.pageY + 10) + 'px')
+                    .attr('data-year', item.Year)
             })
             .on('mouseout', () => {
                 tooltip.style('visibility', 'hidden')
