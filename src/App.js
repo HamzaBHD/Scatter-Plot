@@ -11,9 +11,9 @@ function App() {
     .then(data => setData(data))
   }, [])
 
-  const width = 800
+  const width = 1000
   const height = 600 
-  const padding = 50 
+  const padding = 60 
 
 
   return (
@@ -35,6 +35,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
