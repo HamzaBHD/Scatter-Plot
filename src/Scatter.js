@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import './Scatter.css';
 import * as d3 from 'd3';
 
@@ -6,7 +6,7 @@ const Scatter = ({data, width, height, padding}) => {
 
     useEffect(()=> {
         scatterPlot();
-    },[data])
+    })
 
     const scatterPlot = () => {
         const tooltip = d3.select('#tooltip')
